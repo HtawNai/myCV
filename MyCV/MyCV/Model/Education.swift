@@ -12,5 +12,5 @@
 
 import Foundation
 struct Education {
-    
+    var degree: String
 }
