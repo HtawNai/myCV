@@ -10,6 +10,8 @@
 		4F1873802A2EE6D200B2FC9B /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F18737F2A2EE6D200B2FC9B /* SummaryView.swift */; };
 		4F1873822A2EF9FD00B2FC9B /* ProfileHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1873812A2EF9FD00B2FC9B /* ProfileHeadView.swift */; };
 		4F1873852A2EFAF900B2FC9B /* PersonalInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1873842A2EFAF900B2FC9B /* PersonalInfoView.swift */; };
+		4F1873872A2EFCD800B2FC9B /* DataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1873862A2EFCD800B2FC9B /* DataHelper.swift */; };
+		4F1873892A2EFF8200B2FC9B /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1873882A2EFF8200B2FC9B /* Skill.swift */; };
 		4F815FE52A2D92110086959C /* Experinece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F815FE42A2D92110086959C /* Experinece.swift */; };
 		4F815FE72A2D92CD0086959C /* Education.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F815FE62A2D92CD0086959C /* Education.swift */; };
 		4F815FEA2A2D95FA0086959C /* ExperienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F815FE92A2D95FA0086959C /* ExperienceView.swift */; };
@@ -45,6 +47,8 @@
 		4F18737F2A2EE6D200B2FC9B /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
 		4F1873812A2EF9FD00B2FC9B /* ProfileHeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeadView.swift; sourceTree = "<group>"; };
 		4F1873842A2EFAF900B2FC9B /* PersonalInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoView.swift; sourceTree = "<group>"; };
+		4F1873862A2EFCD800B2FC9B /* DataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHelper.swift; sourceTree = "<group>"; };
+		4F1873882A2EFF8200B2FC9B /* Skill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
 		4F815FE42A2D92110086959C /* Experinece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experinece.swift; sourceTree = "<group>"; };
 		4F815FE62A2D92CD0086959C /* Education.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Education.swift; sourceTree = "<group>"; };
 		4F815FE92A2D95FA0086959C /* ExperienceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceView.swift; sourceTree = "<group>"; };
@@ -100,6 +104,8 @@
 			children = (
 				4F815FE42A2D92110086959C /* Experinece.swift */,
 				4F815FE62A2D92CD0086959C /* Education.swift */,
+				4F1873862A2EFCD800B2FC9B /* DataHelper.swift */,
+				4F1873882A2EFF8200B2FC9B /* Skill.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -312,7 +318,9 @@
 				4F815FE72A2D92CD0086959C /* Education.swift in Sources */,
 				4F1873822A2EF9FD00B2FC9B /* ProfileHeadView.swift in Sources */,
 				4F815FEA2A2D95FA0086959C /* ExperienceView.swift in Sources */,
+				4F1873872A2EFCD800B2FC9B /* DataHelper.swift in Sources */,
 				4F1873802A2EE6D200B2FC9B /* SummaryView.swift in Sources */,
+				4F1873892A2EFF8200B2FC9B /* Skill.swift in Sources */,
 				4F815FEF2A2D9D000086959C /* EducationalView.swift in Sources */,
 				4FEF18192A2749F9001F9C81 /* MyCVApp.swift in Sources */,
 			);

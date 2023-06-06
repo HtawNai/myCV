@@ -21,6 +21,18 @@ struct EducationalView: View {
             Text("Edicuation")
                 .font(.largeTitle)
                 .fontWeight(.bold)
+            ScrollView(showsIndicators: false){
+                VStack(alignment:.leading, spacing: 5){
+                    ForEach(educations, id: \.location) {
+                        Text($0.degreeTitle)
+                            .font(.title2)
+                            .fontWeight(.bold)
+                        Text($0.universtiy)
+                        Text($0.greaduatedDate)
+                        Divider()
+                    }
+                }
+            }
             Spacer()
         }.padding()
     }

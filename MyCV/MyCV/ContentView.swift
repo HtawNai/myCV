@@ -16,7 +16,7 @@ struct ContentView: View {
     
     var body: some View {
         TabView {
-            SummaryView()
+            SummaryView(summaryList: generateSummary())
                 .tabItem {
                     Label("summary", systemImage: "newspaper.circle.fill")
                 }
@@ -25,11 +25,11 @@ struct ContentView: View {
                 .tabItem {
                     Label("Experience", systemImage: "books.vertical.circle")
                 }
-            EducationalView(educations: [])
+            EducationalView(educations: generateEducation())
                 .tabItem {
                     Label("Education", systemImage: "graduationcap.circle")
                 }
-            SkillsView()
+            SkillsView(skills: generateSkill())
                 .tabItem {
                     Label("Skills", systemImage: "brain.head.profile")
                 }

@@ -17,3 +17,10 @@ struct Education {
     var universtiy : String
     var greaduatedDate : String
 }
+
+func generateEducation()->[Education]{
+    let beit = Education(degreeTitle: "BE.IT", location: "Myanmar", universtiy: "Technological University (Mawlamyine)", greaduatedDate: "Feb-2013")
+    let btechit = Education(degreeTitle: "B.Tech IT", location: "Myanmar", universtiy: "Technological University (Mawlamyine)", greaduatedDate: "Feb-2010")
+    let advanceIOS = Education(degreeTitle: "Advance iOS developer", location: "Yangon", universtiy: "Myanmar IT Consultant", greaduatedDate: "")
+    return [beit, btechit, advanceIOS]
+}
