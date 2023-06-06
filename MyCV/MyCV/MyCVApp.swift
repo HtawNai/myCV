@@ -16,7 +16,7 @@ import SwiftUI
 struct MyCVApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(experiences: generateExperience())
+            ContentView()
         }
     }
 }

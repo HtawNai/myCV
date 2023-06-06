@@ -12,5 +12,8 @@
 
 import Foundation
 struct Education {
-    var degree: String
+    var degreeTitle: String
+    var location : String
+    var universtiy : String
+    var greaduatedDate : String
 }

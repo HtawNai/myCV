@@ -16,6 +16,8 @@ struct EducationalView: View {
     var educations : [Education]
     var body: some View {
         VStack(alignment: .leading){
+            ProfileHeadView()
+            Divider()
             Text("Edicuation")
                 .font(.largeTitle)
                 .fontWeight(.bold)
