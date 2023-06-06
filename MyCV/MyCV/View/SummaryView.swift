@@ -13,13 +13,21 @@
 import SwiftUI
 
 struct SummaryView: View {
-    var summaryList : [String]
+    var summaryList : [Summary]
     var body: some View {
         VStack(alignment: .leading){
             ProfileHeadView()
             Divider()
-            Text("Summary")
-                .font(.largeTitle)
+            ScrollView(showsIndicators: false){
+                VStack(alignment:.leading, spacing: 5){
+                    ForEach(summaryList, id: \.desc) {
+                        Text("- \($0.desc)\n")
+                            .font(.body)
+                            .multilineTextAlignment(.leading)
+                    }
+                }
+            }
+            
             Spacer()
         }.padding()
     }
@@ -27,6 +35,6 @@ struct SummaryView: View {
 
 struct SummaryView_Previews: PreviewProvider {
     static var previews: some View {
-        SummaryView(summaryList: ["6 year + experience"])
+        SummaryView(summaryList: [])
     }
 }
