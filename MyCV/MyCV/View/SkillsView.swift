@@ -1,14 +1,14 @@
 //
 /**
-  SkillsView.swift
-
-  🧑‍💻 🧑‍💻 🧑‍💻 🧑‍💻 🧑‍💻 🧑‍💻 🧑‍💻 🧑‍💻
-  
-  Created by: Banyar on 6/5/23.
-  Copyright (c) 2023 Appzgate Solutions.
-*/
+ SkillsView.swift
+ 
+ 🧑‍💻 🧑‍💻 🧑‍💻 🧑‍💻 🧑‍💻 🧑‍💻 🧑‍💻 🧑‍💻
+ 
+ Created by: Banyar on 6/5/23.
+ Copyright (c) 2023 Appzgate Solutions.
+ */
 //
-  
+
 
 import SwiftUI
 
@@ -22,17 +22,15 @@ struct SkillsView: View {
                 .font(.largeTitle)
                 .fontWeight(.bold)
             ScrollView(showsIndicators: false){
-                VStack(alignment:.leading, spacing: 5){
+                LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())]) {
                     ForEach(skills, id: \.skillTitle) {skill in
                         HStack{
                             Image(skill.iconName)
                                 .resizable()
-                                .frame(width: 50, height: 50)
+                                .frame(width: 35, height: 35)
                             Text(skill.skillTitle)
-                                .font(.title2)
-                            
+                                .font(.title3)
                         }
-                        
                     }
                 }
             }
