@@ -23,7 +23,7 @@ struct EducationalView: View {
                 .fontWeight(.bold)
             ScrollView(showsIndicators: false){
                 VStack(alignment:.leading, spacing: 5){
-                    ForEach(educations, id: \.location) {
+                    ForEach(educations, id: \.degreeTitle) {
                         Text($0.degreeTitle)
                             .font(.title2)
                             .fontWeight(.bold)
