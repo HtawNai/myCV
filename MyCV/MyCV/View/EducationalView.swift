@@ -5,7 +5,7 @@
   🧑‍💻 🧑‍💻 🧑‍💻 🧑‍💻 🧑‍💻 🧑‍💻 🧑‍💻 🧑‍💻
   
   Created by: Banyar on 6/5/23.
-  Copyright (c) 2023 Appzgate Solutions.
+  Copyright (c) 2023 Banyar iOS Dev Series.
 */
 //
   
